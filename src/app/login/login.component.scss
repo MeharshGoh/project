@@ -1,0 +1,103 @@
+mat-card {
+  max-width: 726px;
+  margin: 10em auto;
+  text-align: center;
+  max-height: 600px;
+  box-sizing: border-box;
+  border-radius: 55px;
+}
+
+
+.header{
+  text-align: center;
+  background: -webkit-linear-gradient(left,#0563ef,#81efa3);
+
+}
+.full-width {
+  width: 80%;
+}
+
+.button-row {
+  padding-top: 5px;
+}
+
+.button-row a {
+  margin-right: 8px;
+  text-align: center;
+}
+
+.forget-password{
+  padding-left: 0px;
+}
+
+.emailInput{
+  padding-top: 10px;
+}
+
+.contentBody {
+  padding: 60px 1rem;
+  background :#1b6ca8;
+  display: block;
+  
+}
+
+.aLink{
+  float: right;
+  padding-right: 60px;
+  text-decoration: none;
+}
+
+
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #251f1f00;
+  inline-size: auto;
+}
+
+
+ul#horizontal-list {
+	min-width: auto;
+	padding-top: 20px;
+  inline-size: auto;
+    text-align-last: end;
+}
+	
+	ul#horizontal-list li {
+		display: inline;
+    inline-size: auto;
+	}
+
+.header{
+  
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+  border-radius: 30px;
+}
+
+
+
+
+
+.left-half {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  padding: 0rem;
+}
+
+.form-radio {
+ 
+  -webkit-user-modify: read-write-plaintext-only;
+}
+
+.mat-radio-label {
+ 
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 100%;
+  
+}
